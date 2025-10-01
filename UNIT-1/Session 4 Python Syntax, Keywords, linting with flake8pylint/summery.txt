@@ -6,7 +6,7 @@
   
   To run these modules we can use flake8 my_script.py  and same for pylint
 
-_________________________________________________________________________________________
+____________________________________________________________________________________________________
 
 2# --Formatting with black
     black = The Uncompromising Code Formatter
@@ -15,14 +15,27 @@ ________________________________________________________________________________
 
     we can use it by black my_script.py
 
-_________________________________________________________________________________________
+_____________________________________________________________________________________________________
 
 3# Docstring Comments: Python docstring is the string literals with triple quotes 
    that are appeared right after the function. It is used to associate documentation 
    that has been written with Python modules, func- tions, classes, and methods.
-     
-   def add(a ,b):
-       """Function to add the value of a and b """
-        return a+b
-   print(add.__doc__)   # this is method to use python docstring  comments.
+_____________________________________________________________________________________________________     
+4# --Python Multi Line Statement 
+   If the ‘\’ operator is written at the end of a line, Python interpreter automatically goes
+   to the next line as a continuation to the statement. This is known as explicit line continuation.
+_____________________________________________________________________________________________________
+5# --Python Keywords -Python keywords are reserved words that are used to
+define the syntax and structure of the Python 
+  
+   if: Conditional statement for executing code based on a condition.
+   else: Executes when the if condition is false.
+   elif: Short for ”else if”, used for multiple branching in conditions.
+   for: Used for looping over a sequence (e.g., list, tuple, string).
+   while: Loops until a condition becomes false.
+   def: Defines a function.
+   return: Exits a function and returns a value.
+   class: Defines a new class.
+   import: Imports a module into the current script or module.
+   try, except: Used for exception handling.
 
