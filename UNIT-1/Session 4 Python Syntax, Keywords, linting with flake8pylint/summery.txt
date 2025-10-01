@@ -1,0 +1,28 @@
+1# --Linting with flake8 and pylint
+  🧪 flake8: Finds style issues and unused imports
+  🔍 pylint: More detailed, checks for code smells 
+  
+  we can download or install these by help of pip .
+  
+  To run these modules we can use flake8 my_script.py  and same for pylint
+
+_________________________________________________________________________________________
+
+2# --Formatting with black
+    black = The Uncompromising Code Formatter
+	Automatically formats code to follow PEP 8
+	Fast, opinionated, and no arguments about style
+
+    we can use it by black my_script.py
+
+_________________________________________________________________________________________
+
+3# Docstring Comments: Python docstring is the string literals with triple quotes 
+   that are appeared right after the function. It is used to associate documentation 
+   that has been written with Python modules, func- tions, classes, and methods.
+     
+   def add(a ,b):
+       """Function to add the value of a and b """
+        return a+b
+   print(add.__doc__)   # this is method to use python docstring  comments.
+
