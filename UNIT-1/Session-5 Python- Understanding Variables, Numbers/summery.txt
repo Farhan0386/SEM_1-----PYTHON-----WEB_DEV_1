@@ -1,0 +1,20 @@
+1# --Variable
+    it is like container in memory which hold some data 
+    which can be of any type. we can use like x=4
+    here 4 is assigned to x it not mean that x is equal to 4
+    for equal representation we use == sign .
+
+    some rules to give name for varibles.
+    1 variable names can only contain letters, numbers , underscores.
+    2 Variable names can  not start with number
+    3 varibles are case-sensative means (myname and MYNAME are two diifrent varibles)
+
+    the scope of varibles is important either varible is global or local
+     global means that it is available through your entire program .
+     local means it is created inside a function .
+
+     if u want make a global varible inside a function use global keyword.
+     we can use it by def my_fun():
+                          global my_var
+                          my_var="hello world"
+                          print(my_var)
