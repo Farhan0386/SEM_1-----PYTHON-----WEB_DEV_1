@@ -1,0 +1,19 @@
+1# :Scalers Types
+    1.NUMERIC: (integer, float, complex numbers) these three types of data comes in NUMERIC DATA TYPE
+    2.SEQUENCE: (string, list, tuple) these comes under sequence data type.
+    3.DICTIONARY
+    4.BOOLEAN
+    5.SET
+IN NUMERIC _____________________________________________________________________________________________
+ EX- integer(int):represent whole numbers without decimals, x=5
+     Float(float):represent numbers with decimals, y=3.14
+     complex numbers:represent numbers with a real and imagenary part example part, z=3+2j
+
+IN BOOLEAM(bool)_________________________________________________________________________________________
+EX- it represent truth values ,either True or False  ,is_valid=True
+
+IN SEQUENCE______________________________________________________________________________________________
+EX- string(str) represent an ordered sequence of characters, message="hello farhan".
+    string is immutable that's means it can not be update later we can not change it .
+    we use single or double quates for writeing string ex word="hello"  or word='hello'
+    triple quotation we use when we need multi line string.
