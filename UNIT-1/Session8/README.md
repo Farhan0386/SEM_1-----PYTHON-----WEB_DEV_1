@@ -1,45 +1,63 @@
-# Session-08 - Operators in Python
+# 📘 README: Python Operators — Session 08
 
-1. Session Details
+Course: Programming for Problem Solving Using Python
+Institution: K.R. Mangalam University
+Topic: Operators — Arithmetic, Assignment, Comparison, Precedence
 
-- Topic: Operators — Arithmetic, Assignment, Comparison, Precedence
-2.Recap of Key Python Concepts
+🧮 Arithmetic Operators
+Arithmetic operators perform mathematical operations on numeric data types.
 
-- Immutable Types: Numbers
-  - Integer (int): Whole numbers (example: x = 42, y = -7)
-  - Float (float): Decimal numbers (example: pi = 3.14159)
-  - Complex (complex): Numbers with real and imaginary parts (example: z = 1 + 2j)
-- Tuples: Ordered, immutable collections (example: coordinates = (10, 20))
+- `+` : Addition
+- `-` : Subtraction
+- `*` : Multiplication
+- `/` : Division (returns float)
+- `//` : Floor Division (returns integer)
+- `%` : Modulus (returns remainder)
+- `**` : Exponentiation
 
-3.Core Session Topics: Operators
-A. Arithmetic Operators
+📝 Assignment Operators
+Assignment operators assign and update values stored in variables.
 
-- Addition (3 + 5 -> 8)
-- Subtraction (7 - 2 -> 5)
-- Multiplication (4 * 6 -> 24)
-- Division (10 / 3 -> 3.333...)
-- Floor division (10 // 3 -> 3)
-- Modulus (10 % 3 -> 1)
-- Exponentiation   (10**5 -> 100000)
+- = : Simple assignment
+- += : Add and assign
+- -= : Subtract and assign
+- *= : Multiply and assign
+- /= : Divide and assign
+- %= : Modulus and assign
+- //= : Floor divide and assign
+- **= : Exponentiate and assign
+- &= : Bitwise AND and assign
+- |= : Bitwise OR and assign
+- ^= : Bitwise XOR and assign
+- >>= : Bitwise right shift and assign
+- <<= : Bitwise left shift and assign
 
-B. Assignment Operators
+🔍 Comparison Operators
+Used to compare two values and return a Boolean result.
 
-- = Simple assignment (x = 10)
-- += Add and assign (x += 5 is x = x + 5)
-- -=, *=, /=, %=, //=, **= and bitwise assignment operators (&=, |=, ^=, >>=, <<=)
+- == : Equal to
+- != : Not equal to
+- > : Greater than
+- < : Less than
+- >= : Greater than or equal to
+- <= : Less than or equal to
 
-C. Comparison Operators
+🔢 Operator Precedence
+Defines the order in which operations are evaluated in expressions.
 
-- == Equal to
-- != Not equal to
-- > Greater than
-- < Less than
-- >= Greater than or equal to
-- <= Less than or equal to
+- Parentheses ()
+- Exponentiation **
+- Multiplication, Division, Floor Division, Modulus * / // %
+- Addition and Subtraction + -
+→ Operators with the same precedence are evaluated left to right.
 
-4.Operator Precedence
+🧠 Key Concepts Recap
 
-- Parentheses: ()
-- Exponentiation: ** (right-to-left)
-- Multiplication, Division, Floor Division, Modulus: *, /, //, %
-- Addition and Subtraction: +, -
+- Python numbers (int, float, complex) are immutable.
+- Tuples are ordered, immutable collections.
+- Strings support indexing, slicing, and concatenation.
+- Arithmetic operations between different types are auto-converted.
+- Division by zero raises ZeroDivisionError.
+- Complex numbers support arithmetic operations.
+- Parentheses can override default precedence.
+- Augmented assignment simplifies repetitive operations.
