@@ -1,0 +1,36 @@
+1# :Scalers Types
+    1.NUMERIC: (integer, float, complex numbers) these three types of data comes in NUMERIC DATA TYPE
+    2.SEQUENCE: (string, list, tuple) these comes under sequence data type.
+    3.DICTIONARY
+    4.BOOLEAN
+    5.SET
+IN NUMERIC _____________________________________________________________________________________________
+ EX- integer(int):represent whole numbers without decimals, x=5
+     Float(float):represent numbers with decimals, y=3.14
+     complex numbers:represent numbers with a real and imagenary part example part, z=3+2j
+
+IN BOOLEAM(bool)_________________________________________________________________________________________
+EX- it represent truth values ,either True or False  ,is_valid=True
+
+IN SEQUENCE______________________________________________________________________________________________
+EX- 1# string(str) represent an ordered sequence of characters, message="hello farhan".
+    string is immutable that's means it can not be update later we can not change it .
+    we use single or double quates for writeing string ex word="hello"  or word='hello'
+    triple quotation we use when we need multi line string.
+
+    2# list is also a sequence data type it is pair of ordered pairs of some datatypes .
+       A list is an ordered, mutable collection of items in Python.
+       Items can be any type (ints, floats, strings, complex, other lists, objects). A single list can mix types.
+       Lists preserve insertion order and allow duplicate elements.
+
+    3#   A tuple is an ordered, immutable collection of items.
+        Like lists, a tuple can contain items of different types (ints, strings, complex numbers, other tuples, etc.).
+        Because it's immutable, you cannot change, add, or remove items after creation.
+IN DICTIONARY_______________________________________________________________________________________________________________________
+   A dictionary is an unordered (in older Pythons) — now insertion-ordered — mutable mapping that stores key → value pairs.
+   Keys must be hashable (immutable types like strings, numbers, tuples of hashables). Values can be any type.
+   Use dictionaries when you need to look up values by a unique key (like a small database or JSON-like structure).
+IN SETS______________________________________________________________________________________________________________________________
+  A set is an unordered collection of unique, hashable items.
+  It's mutable (you can add/remove items), but the elements themselves must be hashable (immutable types like int, str, tuple of hashables).
+  Use sets when you need membership tests, uniqueness, or set-theory operations (union, intersection, difference).
