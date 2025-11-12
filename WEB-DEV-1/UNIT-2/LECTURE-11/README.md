@@ -123,3 +123,50 @@ Think of CSS selectors like a sniper choosing targets:
 - **ID Selector (`#leader`)** → One specific soldier with a unique call sign (the element with ID `leader`).
 
 ---
+<!--
+📘 CSS Properties Cheat Sheet
+This section summarizes common CSS properties with examples.
+You can paste this into your README or HTML documentation.
+-->
+```html
+<style>
+  /* Text styling */
+  .text-example {
+    color: #333; /* Sets text color */
+    font-size: 18px; /* Sets font size */
+    font-family: 'Segoe UI', sans-serif; /* Sets font style */
+    font-weight: bold; /* Makes text bold */
+    text-align: center; /* Centers the text */
+    text-decoration: underline; /* Underlines the text */
+  }
+
+  /* Box model */
+  .box-example {
+    margin: 20px; /* Space outside the element */
+    padding: 10px; /* Space inside the element */
+    border: 2px solid #000; /* Adds a border */
+    width: 300px; /* Sets width */
+    height: 150px; /* Sets height */
+  }
+
+  /* Layout and effects */
+  .layout-example {
+    display: flex; /* Enables flex layout */
+    position: relative; /* Enables positioning */
+    top: 10px; /* Moves element down */
+    left: 10px; /* Moves element right */
+    z-index: 5; /* Stacking order */
+    overflow: hidden; /* Hides overflow content */
+    opacity: 0.8; /* Transparency */
+    visibility: visible; /* Element is visible */
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2); /* Adds shadow */
+    transition: all 0.3s ease; /* Smooth animation */
+    transform: scale(1.1); /* Scales the element */
+    cursor: pointer; /* Changes mouse cursor */
+  }
+</style>
+
+<div class="text-example">Text Styling Example</div>
+<div class="box-example">Box Model Example</div>
+<div class="layout-example">Layout & Effects Example</div>
+```
