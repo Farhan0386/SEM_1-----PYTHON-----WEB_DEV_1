@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  <title>CSS Selectors & Properties - II</title>
+  <!-- Link your external CSS file here -->
+  <!-- <link rel="stylesheet" href="styles.css"> -->
+</head>
+<body>
+
+  <!-- 📘 Attribute Selectors Section -->
+  <section id="attribute-selectors">
+    <h2>Attribute Selectors</h2>
+    <form>
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br><br>
+
+      <input type="submit" value="Subscribe">
+    </form>
+
+    <!-- Practice styling:
+      input[type="text"] → gray border
+      input[type="email"] → blue border
+      input[type="submit"] → green background, white text
+    -->
+  </section>
+
+  <!-- 📘 Combinator Selectors Section -->
+  <section id="combinator-selectors">
+    <h2>Combinator Selectors</h2>
+
+    <!-- Descendant Selector Example -->
+    <div class="descendant-example">
+      <p>This paragraph is inside a div.</p>
+    </div>
+    <p>This paragraph is outside the div.</p>
+
+    <!-- Child Selector Example -->
+    <div class="child-example">
+      <p>Direct child paragraph.</p>
+      <section>
+        <p>Nested child paragraph.</p>
+      </section>
+    </div>
+
+    <!-- Adjacent Selector Example -->
+    <h2>Heading</h2>
+    <p>Paragraph immediately after h2.</p>
+    <p>Another paragraph not adjacent.</p>
+
+    <!-- General Sibling Selector Example -->
+    <h2>Sibling Heading</h2>
+    <p>Sibling paragraph 1</p>
+    <p>Sibling paragraph 2</p>
+    <div>
+      <p>Not a sibling (nested)</p>
+    </div>
+
+    <!-- Practice styling:
+      div p → descendant
+      div > p → child
+      h2 + p → adjacent
+      h2 ~ p → general sibling
+    -->
+  </section>
+
+  <!-- 📘 Check Your Understanding Section -->
+  <section id="quiz">
+    <h2>Check Your Understanding</h2>
+    <ul>
+      <li>
+        <strong>Q:</strong> What does <code>a[target="_blank"]</code> select?<br>
+        <strong>A:</strong> All <code>&lt;a&gt;</code> elements with <code>target="_blank"</code>.
+      </li>
+      <li>
+        <strong>Q:</strong> Which combinator selects direct children?<br>
+        <strong>A:</strong> <code>div > p</code>
+      </li>
+    </ul>
+  </section>
+
+  <!-- 📘 References Section -->
+  <section id="references">
+    <h2>References</h2>
+    <ul>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">MDN Web Docs</a></li>
+      <li><a href="https://www.w3schools.com/css/" target="_blank">W3Schools CSS Tutorial</a></li>
+      <li><a href="https://css-tricks.com/" target="_blank">CSS-Tricks</a></li>
+    </ul>
+  </section>
+
+</body>
+</html>
