@@ -12,16 +12,23 @@ body{
     text-align: center;
     
 }
+#header1{
+    background-color: #3226df;
+    border-radius: 6px;
+}
 h2 {
     color: #333;
     background-color:yellow;
+    border-radius: 5px;
 }
 label {
     font-weight: bold;
     margin-bottom: 5px;
     display: inline-block;
     font-size: 18px;
-    border-radius: 7px;
+    border-radius: 5px;
+    background-color: #ff0000;
+
 }    
 input[type="text"] {
     border: 4px solid #98731d;
